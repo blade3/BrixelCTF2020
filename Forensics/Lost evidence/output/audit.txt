@@ -1,0 +1,24 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Wed Dec 30 20:11:38 2020
+Invocation: foremost evidence.img 
+Output directory: /home/kali/CTF/BixelCTF_dec2020/Forensics/Lost evidence/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: evidence.img
+Start: Wed Dec 30 20:11:38 2020
+Length: 917 MB (962583040 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00011328.wav 	       8 MB 	    5799936 	 
+1:	00028304.wav 	       8 MB 	   14491648 	 
+Finish: Wed Dec 30 20:11:59 2020
+
+2 FILES EXTRACTED
+	
+rif:= 2
+------------------------------------------------------------------
+
+Foremost finished at Wed Dec 30 20:11:59 2020
