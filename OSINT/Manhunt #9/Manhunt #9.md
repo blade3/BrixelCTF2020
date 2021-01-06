@@ -7,6 +7,7 @@ This flag is not in the usual format, you can enter it with or without the brixe
 This is part of a series, more challenges will be unlocked once you solve this one. While most challenges will be OSINT, some of them may not be.
 
 ============================
+
 Walkthrough:
 
 this is the nineth part of the Manhunt series. Auth means authentification. We probably want to gain access to the wordpress.
