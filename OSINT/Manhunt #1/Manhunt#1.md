@@ -6,6 +6,9 @@ Someone posted this picture on the internet and my mother saw it, man, he is in 
 
 I want to know WHO posted this picture, let's hunt this guy down!
 
+<img src="https://github.com/blade3/BrixelCTF2020/blob/master/OSINT/Manhunt%20%231/icecream.jpg" width="300">
+
+
 This flag is not in the usual format, you can enter it with or without the brixelCTF{flag} format, replace spaces with underscores ('_')
 
 This is part of a series, more challenges will be unlocked once you solve this one. While most challenges will be OSINT, some of them may not be.
@@ -15,8 +18,9 @@ Walkthrough:
 
 this is the first part of the Manhunt series. 
 
-Using exiftool, we are able to find the owner:
+Using `exiftool`, we are able to find the owner:
 
+```
 $ exiftool icecream.jpg 
 ExifTool Version Number         : 12.12
 File Name                       : icecream.jpg
@@ -45,5 +49,8 @@ Y Cb Cr Sub Sampling            : YCbCr4:4:4 (1 1)
 Image Size                      : 1536x2048
 Megapixels                      : 3.1
 
+```
 The flag is:
+```
 Johnny_Dorfmeister
+```
