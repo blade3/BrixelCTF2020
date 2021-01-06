@@ -15,7 +15,7 @@ Walkthrough:
 
 this is the seventh part of the Manhunt series. Our first attempts to achieve this one is pivoting around the domain by using a whois tool or something but it didn't work. We tried to submit an email through the website, maybe it will send a template with his address.
 
-After using the form, the following text appears:
+After using the form, the following message appears:
 
 ```
 Thanks for contacting me, an e-mail is on the way with more details.
