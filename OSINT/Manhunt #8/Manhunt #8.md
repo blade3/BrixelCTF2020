@@ -8,11 +8,15 @@ This is part of a series, more challenges will be unlocked once you solve this o
 
 
 ============================
+
 Walkthrough:
 
-this is the eighth part of the Manhunt series. We suspect that is related on real life. On google map, you are able to find the old street view. On the right side of this building, we can read the following:
+this is the eighth part of the Manhunt series. We suspect that is related on real life. On google map, you are able to find an old street view ([Here is the google map link](https://goo.gl/maps/Sm33SNWcaCWUPyKt9)). On the right side of this building, we can read the following:
+```
 JUST MARRIED
+```
 
-
-the flag is:
+The flag is:
+```
 JUST_MARRIED
+```
