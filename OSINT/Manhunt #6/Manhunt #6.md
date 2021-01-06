@@ -7,14 +7,18 @@ This flag is not in the usual format, you can enter it with or without the brixe
 This is part of a series, more challenges will be unlocked once you solve this one. While most challenges will be OSINT, some of them may not be.
 
 ============================
+
 Walkthrough:
 
 this is the sixth part of the Manhunt series. On the first page, it is possible to use google translate to be able to read other language.
 
 In this case, we found the following text:
+```
 Есть свободный флаг: поэзия
 (There is a free flag: poetry)
-
+```
 
 The flag is:
+```
 poetry
+```
