@@ -9,19 +9,35 @@ This is part of a series, more challenges will be unlocked once you solve this o
 ============================
 Walkthrough:
 
-this is the nineth part of the Manhunt series. Auth means authentification. we probably try to gain access to the wordpress.
+this is the nineth part of the Manhunt series. Auth means authentification. We probably want to gain access to the wordpress.
 
+Because it is a OSINT chanllenge, we probably able to find the source code on the web. Let try to `GitHub`:
+```
 https://github.com/search?q=dorfmeister&type=users
+```
 
+We found the user `JohnnyDorfmeister`. On his repository named `authentication-requests`, we found the following auth page:
+```
 https://github.com/JohnnyDorfmeister/authentication-requests/blob/master/auth.php
+```
 
-the page has been found here:
+The prod auth page has been found here (link on the home page):
+```
 http://www.howitshould.be/authentication/auth.php
+```
 
-The username is pretty easy to get. The password too because Johnny has uploaded the password on github and removed on next commit. We are able to retrieve the password using the Github history.
+The username is pretty easy to get. The password too because Johnny has uploaded the password on github and removed on next commit. 
 
+We are able to retrieve the password using the Github history.
+
+```
 Username: johnny
 password: letmein
+```
+
+Once the authentification is completed, we got the flag.
 
 The flag is:
+```
 g1ttern00b
+```
